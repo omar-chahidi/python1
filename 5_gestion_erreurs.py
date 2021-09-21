@@ -48,6 +48,8 @@ finally:
 
 # Exemple attraper une xception avec AssertionError
 # assert prixTTC > 25 EUROS => je veux verifier que le prix est > à 25 euros
+#
+# avec assert J'exige que le prix est > 25 si non je veux elever une AssertionError
 #-------------------------------------------------------------------------------------
 try:
     prixTTC = input("Quel est le prix TTC ? ")
