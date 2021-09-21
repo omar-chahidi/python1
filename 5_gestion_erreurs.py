@@ -1,6 +1,7 @@
 #coding:utf-8
 
 """
+L'objectif est de gérer une exception levée
 Gérer les exception : try / except (+ else , finally)
 Types exceptiosn : 
     ZeroDivisionError
@@ -43,3 +44,17 @@ else:
     print("La division est terminé ")
 finally:
     print("FIN DU PROGRAMME DE LA DIVISION....")
+
+
+# Exemple attraper une xception avec AssertionError
+# assert prixTTC > 25 EUROS => je veux verifier que le prix est > à 25 euros
+#-------------------------------------------------------------------------------------
+try:
+    prixTTC = input("Quel est le prix TTC ? ")
+    prixTTC = int(prixTTC)
+    assert prixTTC > 25 # je veut que le prix soit plus grand que 25 euros
+except AssertionError:
+    print("J'ai attrappé l'exeption. Le prix choisi est < 25 euros. Test ko")
+else:
+    print("Le prix est > 25 euros. Tout est OK")
+    
