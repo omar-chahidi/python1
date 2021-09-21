@@ -1,5 +1,16 @@
 #coding:utf-8
 
+"""
+Gérer les exception : try / except (+ else , finally)
+Types exceptiosn : 
+    ZeroDivisionError
+    ValueError
+    TypeError
+    NameError
+    AssertionError
+    ...
+"""
+
 #-------------------------------------------------------------------------------------
 ageUtilisateur = input("Entrez votre âge ? ")
 
@@ -14,6 +25,8 @@ finally:
     
 # Gérer les erreurs d'une division
 # il ne faut pas / 0 ou par un text
+# remarque : puisque on ne connait pas les exception des erreurs c'est pour cela 
+# on lance le programme pour generer des erreur et ensuite ajouter le nom de l'exception
 #-------------------------------------------------------------------------------------
 nombre1 = 150
 
