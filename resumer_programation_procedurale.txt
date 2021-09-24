@@ -1,0 +1,16 @@
+OBJET : PARADIGME PROGRAMATION
+            => Programation procédurale
+            => Programation orienté-objet (POO)
+
+Paradigme de Programation: est une façon d'approcher la programation informatique (procédurale ou POO)
+Méthode de Programation: est une manière d'organiser la solution des problèmes spécifiques du génie logiciel
+-----------------------------------------------------------------------------
+                          Programation procédurale
+-----------------------------------------------------------------------------
+- Afficher du texte
+- Saisir des information sur clavier => création de menu
+- Travailler sur les variables
+- Conditions et boucles
+- Fonctions
+- Modulrité => utiliser des module (fichier) qui contient des fonctions à utilisés dans d'autre scripts
+- Géstion des erreurs avec Try / except / else / finally 
