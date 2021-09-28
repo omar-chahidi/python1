@@ -14,3 +14,69 @@ Méthode de Programation: est une manière d'organiser la solution des problème
 - Fonctions
 - Modulrité => utiliser des module (fichier) qui contient des fonctions à utilisés dans d'autre scripts
 - Géstion des erreurs avec Try / except / else / finally 
+
+
+-----------------------------------------------------------------------------
+5_liste.py
+    + [] exemple ["element1", "element2", "element3"]
+    + len(<liste>) = donne la taille (nombre d'élément d'une liste)
+    + Il n'y a pas de tableau en python
+    + Création d'une liste
+    + parcour les éléments d'une liste puis affichage chaque élément de la liste
+    + affichage la totalité de tous les éléments d'une liste
+    + modification d'une liste
+    + recherche un élélement d'une liset
+    + utilisation des méthodes : 
+        - ajout => append 
+        - insertion dans un indice => insert 
+        - suppression d'un élé à partir d'un indice => del
+        - afficher l'indice d'un élément de ma liste => index
+        - trier une liset  
+        - inverser les éléments d'une  liste => reverse
+        - compter le nombre de fois d'un élément (nombre d'occurence) => count 
+        - effacer toutes les éléments d'une liste => clear
+        - mettre une chaine de caractère dans une liste => split avec des éspaces
+        - mettre une liste en une chaine => joint 
+    + copie d'une liste dans une autre => copy.deepcopy
+    + ajouter/concatener une liste à une autre => listeA.extend(listeB) ou listeA = listeA + listeB
+    + parcourir une liste avec le couple (indice , valeur) => enumerate(listeA)
+        \\=> tuple : (clé, valeur) => c'est compteneur
+
+-----------------------------------------------------------------------------
+6_tuples.py
+    + est un compteneur (key, value)
+    + on ne peut pas modifier / ajouter / supprimer un element dans tuple
+    + création un tuple
+        - monTuple = ()         # vide
+        - monTuple = 17,        # une seule valeur
+        - monTuple = (17,)      # une seule valeur
+        - monTuple = (17, 2)    # plusieurs valeurs
+    + Accès aux valeurs :
+        - monTuple = [X]        # valeur d'indice X
+    + deux raisons d'utiliser les tuples: 
+        - affectation multiple des valeurs à des variables
+        - return multiple de valeurs dans une fonction    
+
+-----------------------------------------------------------------------------
+7_dictionnaire.py
+    + dictionnaire <=> tableau associatif 
+        - association clé:valeur
+    + creation dictionnaire 
+        - dic = {} # vide
+        - dic = {<cle>:<valeur>, <cle>:<valeur>}
+    + accès à une valeur
+        - dic[<clé>]
+    + ajout e modification au dictionnaire 
+        - dic[<clé>] = <valeur>
+    + suppression au dictionnaire 
+        - dic.pop(<clé>)
+        - del dic[<clé>]
+    + vérifier si un élément existe dans le dictionnaire
+        - on check l'existance d'une clé
+    + parcourir le dictionnaire
+        - for key in dictionnaire.keys()
+        - for value in dictionnaire.values()
+        - for k,v in dictionnaire.items():
+    + copie dictionnaire
+        - dic2 = dic.copy()
+    + passer parametres només dans une fonction
