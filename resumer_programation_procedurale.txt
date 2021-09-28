@@ -15,7 +15,7 @@ Méthode de Programation: est une manière d'organiser la solution des problème
 - Modulrité => utiliser des module (fichier) qui contient des fonctions à utilisés dans d'autre scripts
 - Géstion des erreurs avec Try / except / else / finally 
 
-
+liste / tuple / dictionnaire tableau associatif
 -----------------------------------------------------------------------------
 5_liste.py
     + [] exemple ["element1", "element2", "element3"]
