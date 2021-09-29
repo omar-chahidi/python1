@@ -80,3 +80,22 @@ liste / tuple / dictionnaire tableau associatif
     + copie dictionnaire
         - dic2 = dic.copy()
     + passer parametres només dans une fonction
+
+-----------------------------------------------------------------------------
+8_lecture_ecriture_fichier.py
+    lecture d'un fichier / écriture dans un fichier 
+    + Modes d'ouverture:
+        r   : lecture seule
+        w   : écriture avec remplacement
+        a   : écriture avec ajout en fin de fichier
+        x   : lecture et écriture
+        r + : lecture / écriture dans un même fichier 
+
+    + ouvrir un fichier => open()
+    + fermer un fichier => close()
+    + récupérer le contenue d'un fichier => read(), readline(), readlines()
+    + avec "with" on va ouvrir le fichier en lecture seule et on ne va pas utilser la fonction close pour fermer le fichier 
+        elle se fait en automatique
+    + Ecriture dans un fichier txt => write()
+    + Ecriture /enregistrer une information dans un fichier binaire => dump() c'est à dire une copie
+    + récupérer une information depuis un fichier binaire => load()
